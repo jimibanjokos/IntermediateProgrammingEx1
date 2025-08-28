@@ -11,5 +11,7 @@ class Person {
 
     public Person(String name, int age, String eyeColor) {
         this.name = name;
+        this.age = age;
+        this.eyeColor = eyeColor;
     }
 }
