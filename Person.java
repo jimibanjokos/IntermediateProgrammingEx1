@@ -14,7 +14,16 @@ class Person {
         this.age = age;
         this.eyeColor = eyeColor;
     }
+
     public String getName() {
         return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+    
+    public String getEyeColor() {
+        return eyeColor;
     }
 }
