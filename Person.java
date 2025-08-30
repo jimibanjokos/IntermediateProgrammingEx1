@@ -1,7 +1,7 @@
 class Person {
-    String name;
-    int age;
-    String eyeColor;
+    private String name;
+    private int age;
+    private String eyeColor;
 
     public Person() {
        this.name = "Alex White";
@@ -13,5 +13,8 @@ class Person {
         this.name = name;
         this.age = age;
         this.eyeColor = eyeColor;
+    }
+    public String getName() {
+        return name;
     }
 }
