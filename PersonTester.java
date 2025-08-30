@@ -1,4 +1,4 @@
-/**Class: Person
+/**Class: PersonTester
  * @author: Jimi Banjoko
  * @version 1.0
  * Course: ITEC 2150 Fall 2025
@@ -11,7 +11,7 @@ public class PersonTester {
     public static void main(String[] args) {
         Person person1 = new Person();
         System.out.println(person1.toString());
-        System.out.println(person1.setName("Howard Roark"));
+        person1.setName("Howard Roark");
         person1.talk();
 
     }
