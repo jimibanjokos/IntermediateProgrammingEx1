@@ -56,4 +56,9 @@ class Person {
     public void setEyeColor(String eyeColor) {
         this.eyeColor = eyeColor;
     }
+
+    // A toString() method
+    public String toString() {
+        return "Name: " + name + ", Age: " + age + ", EyeColor: " + eyeColor;
+    }
 }
