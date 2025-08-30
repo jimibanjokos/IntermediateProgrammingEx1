@@ -61,4 +61,9 @@ class Person {
     public String toString() {
         return "Name: " + name + ", Age: " + age + ", EyeColor: " + eyeColor;
     }
+
+    // An instance method which is the talk() method
+    public void talk() {
+        System.out.println("Welcome, coders! I am " + name);
+    }
 }
